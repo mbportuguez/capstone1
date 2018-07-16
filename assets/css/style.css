@@ -24,7 +24,7 @@ body {
 #mynav {
 	position: fixed;
 	z-index: 3;
-	background-color: rgba(44, 6, 10, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 	width: 100%;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .divider2 {
-	height: 50px;
+	height: 120px;
 }
 
 .slogan_container {
@@ -100,6 +100,11 @@ body {
 
 }
 
+.insights > .card{
+	margin: 0 auto;
+	width: 70px;
+}
+
 .a_container > a {
 	color: red;
 	height: 30px;
@@ -114,7 +119,7 @@ body {
 }
 
 .conheight {
-	height: 300px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 	opacity: 0.4;
@@ -131,17 +136,36 @@ body {
 .quotation {
 	width: 100%;
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 }
 
 .quotation > .container > .row > .col-md-9 > p {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .stcontainer {
 	border-left: 10px solid #E71D36;
 	text-align: center;
 }
+
+.img_container {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.img_outer_container {
+	height: 150px;
+	width: 150px;
+	background-color: #13738b;
+	border-radius: 50%;
+	margin: auto;
+	box-shadow: 1px 1px 10px 1px rgb(105, 104, 103);
+	margin-top: -80px;
+
+}
+
 
 
 
