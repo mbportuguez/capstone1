@@ -9,7 +9,6 @@ body {
 }
 
 #home, #career, #contact, #about {
-	font-family: 'Days One', sans-serif;
 	margin: 0 20px;
 	font-size: 13px;
 	color: white;
@@ -25,7 +24,7 @@ body {
 #mynav {
 	position: fixed;
 	z-index: 3;
-	background-color: rgba(255,255,255,0);
+	background-color: rgba(44, 6, 10, 0.6);
 	width: 100%;
 }
 
@@ -40,7 +39,109 @@ body {
 	margin-top: -180px;
 }
 
+.slogan {
+	text-align: center;
+	/*border: 1px solid;*/
+	height: 300px;
+	background-color: rgba(231, 29, 54, 0.7);
+	color: #f0eae8;
+	font-size: 50px;
+	padding-top: 30px;
+}
 
+.divider {
+	height: 100px;
+}
+
+.divider2 {
+	height: 50px;
+}
+
+.slogan_container {
+	margin-top: -80px;
+	
+}
+
+.bg_container {
+	background-image: url(../images/bg_1.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quotation {
+	height: 300px;
+	/*background-color: #CFCFCF;*/
+	font-size: 20px;
+	text-align: center;
+}
+
+.quotation p {
+	/*border: 1px solid black;*/
+	color: #011627;
+}
+
+.input_size {
+	width: 250px;
+}
+
+.projects {
+	background-color: #CFCFCF;
+}
+
+.navbar-brand > img {
+	height: 50px;
+}
+
+.whyus > .insights > .card > .card-body > p {
+	color: #878482;
+	font-size: 12px;
+
+}
+
+.a_container > a {
+	color: red;
+	height: 30px;
+	width: 30px;
+}
+
+.video-ads {
+	width: 100%;
+	object-fit: cover;
+	/*z-index: -999;*/
+
+}
+
+.conheight {
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	opacity: 0.4;
+	/*background: linear-gradient(rgba(248, 251, 70, 0.6));*/
+
+}
+
+.conheight > div > p {
+	position: absolute;
+	font-size: 100px;
+	/*z-index: 99999;*/
+}
+
+.quotation {
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+
+.quotation > .container > .row > .col-md-9 > p {
+	font-size: 20px;
+}
+
+.stcontainer {
+	border-left: 10px solid #E71D36;
+	text-align: center;
+}
 
 
 
