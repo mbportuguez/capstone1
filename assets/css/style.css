@@ -54,7 +54,7 @@ body {
 }
 
 .divider2 {
-	height: 120px;
+	height: 150px;
 }
 
 .slogan_container {
@@ -82,12 +82,10 @@ body {
 	color: #011627;
 }
 
-.input_size {
-	width: 250px;
-}
+
 
 .projects {
-	background-color: #CFCFCF;
+	/*background-color: #CFCFCF;*/
 }
 
 .navbar-brand > img {
@@ -139,7 +137,7 @@ body {
 	z-index: 2;
 }
 
-.quotation > .container > .row > .col-md-9 > p {
+.quotation p {
 	font-size: 30px;
 }
 
@@ -166,6 +164,90 @@ body {
 
 }
 
+.img_container2 {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 40px;
+}
 
+.service_card {
+	margin: 0 auto;
+}
 
+.service_card p {
+	font-size: 15px;
+	color: #8D8A88;
+	text-align: center;
+} 
 
+.service_card h5 {
+	text-align: center;
+}
+
+.projects img {
+	width: 350px;
+
+}
+
+footer {
+	background-color: #011627;
+	color: #FDFFFC;
+}
+
+footer img {
+	height: 60px;
+}
+
+.footer_divider {
+	height: 30px;
+}
+
+footer > .row > [class*=col] {
+	margin: 0 auto;
+	/*color: red;*/
+	text-align: center;
+	line-height: 100%;
+
+}
+
+#socmedmain .socmed {
+	display: block;
+	margin-top: 15px;
+	font-size: 3em;
+}
+
+.footer .col-md-5 {
+	position: relative;
+}
+
+#logo1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.copyright {
+	text-align: center;
+}
+
+.t {
+	border: 1px solid white;
+}
+
+.spacer_contact {
+	height: 20px;
+}
+
+footer {
+	color: #e8e6e4;
+}
+
+.dividerf {
+	height: 50px;
+}
+
+.dividerf .col-md-10 {
+	border-bottom: 0.5px solid rgba(141, 161, 170, 0.49);
+}
