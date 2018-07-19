@@ -60,11 +60,20 @@ body {
 }
 
 .mission {
-	background-image: url("");
+	background-image: url("../images/bg-m.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 
 .vision {
-	background-image: url("");
+	background-image: url("../images/bg-v.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: white;
+}
+
+.vision p {
+	color: #29221A;
 }
 
 .bg-about .container {
@@ -193,6 +202,8 @@ footer {
 	height: 2rem;
 }
 
+.modal
+
 /*end of footer*/
 
 
@@ -260,6 +271,16 @@ footer {
 		width: 345px;
 	}
 
+	.history h3{
+		text-align: center;
+	}
+
+	#test {
+		height: 500px;
+	}
+
+
+
 
 }
 /*tablet view*/
@@ -293,5 +314,8 @@ footer {
 		height: 135px;
 	}
 
+	.bg-about h2 {
+		padding-top: 2%;
+	}
 
 }
