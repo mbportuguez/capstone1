@@ -1,19 +1,297 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
 
-.test1 {
-	height: 300px;
-	background-color: green;
-	/*float: left;*/
+body {
+	font-family: 'Days One', sans-serif;
 }
 
-.test2 {
-	height: 300px;
-	background-color: red;
-	float: left;
+/*nav bar*/
+#home, #career, #contact, #about {
+	margin: 0 20px;
+	font-size: 13px;
+	color: white;
 }
 
 
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#mynav {
+	position: fixed;
+	z-index: 3;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+}
+
+.navbar-brand > img {
+
+	height: 50px;
+}
+
+/*end of navbar*/
+
+
+
+/*--------------------content----------------*/
+
+.divider-top {
+	height: 200px;
+	position: relative;
+}
+
+.divider-top h1 {
+	margin-top: 120px;
+	position: absolute;
+}
+
+.bg-about {
+	background-color: black;
+	height: 250px;
+}
+
+.bg-about h2 {
+	padding-top: 5%;
+}
+
+.mission {
+	background-image: url("");
+}
+
+.vision {
+	background-image: url("");
+}
+
+.bg-about .container {
+	height: 100%;
+
+}
+
+.divider {
+	height: 0.5rem;
+}
+
+.history {
+	height: 100px;
+	background-color: #E2AB00;
+}
+
+.history .col-md-8 {
+	padding-top: 3%;
+}
+
+.history .col-md-4 {
+	padding-top: 2.4%
+}
+
+.history  
+
+.t {
+	border: 1px solid white;
+}
+
+.team .card {
+	border: 0;
+	box-shadow: 10px, 10px, 10px black;
+}
+
+.team img {
+	border-radius: 50%;
+}
+
+
+.team a {
+	text-decoration: none;
+	color: #737C84;
+}
+
+
+
+
+/*----------------end of content-------------*/
+
+
+/*footer*/
+
+footer {
+	background-color: #011627;
+	color: #FDFFFC;
+}
+
+footer img {
+	height: 60px;
+}
+
+.footer_divider {
+	height: 30px;
+}
+
+footer > .row > [class*=col] {
+	margin: 0 auto;
+	/*color: red;*/
+	text-align: center;
+	line-height: 100%;
+
+}
+
+#socmedmain .socmed {
+	display: block;
+	margin-top: 15px;
+	font-size: 3em;
+}
+
+.footer .col-md-5 {
+	position: relative;
+}
+
+#logo1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.t {
+	border: 1px solid white; /*use to add border*/
+}
+
+.spacer_contact {
+	height: 20px;
+}
+
+footer {
+	color: #e8e6e4;
+}
+
+.dividerf {
+	height: 50px;
+}
+
+.dividerf .col-md-10 {
+	border-bottom: 0.5px solid rgba(141, 161, 170, 0.49);
+}
+
+.container .card-text {
+	min-height: 130px;
+}
+
+.insights .card-body {
+	min-height: 200px;
+}
+
+.project-divider {
+	height: 2rem;
+}
+
+/*end of footer*/
+
+
+/*------------------media querry------------------------*/
+/*mobile view*/
+@media only screen	and (max-width: 400px) {
+
+	.slogan_container {
+		margin-top: auto;
+	}
+
+	.slogan {
+		height: 355px;
+	}
+
+	.insights {
+		margin-top: 20px;
+	}
+
+
+
+	#card-style {
+		width: 1px;
+	}
+
+
+	.card-mobile {
+		margin-top: 100px;
+	}
+
+	.conheight {
+		height: 320px;
+	}
+
+	.stcontainer {
+		border-right: 10px solid #E71D36;
+	}
+
+	.footer .col-md-5 {
+	position: relative;
+	}
+
+	#logo1 {
+		position: absolute;
+		margin-top: 30px;
+	}
+
+	#footer-contacts {
+		margin-top: 100px;
+	}
+
+	.socmedmain {
+		margin-top: 20px;
+	}
+
+	#footer-email {
+		margin-top: 30px;
+	}
+
+	.sc-top {
+		margin-top: -100px;
+	}
+
+	.pr1-parent {
+		width: 345px;
+	}
+
+
+}
+/*tablet view*/
+@media	only screen and (min-width: 401px) and (max-width: 960px) {
+	.slogan_container {
+		margin-top: auto;
+	}
+
+	.slogan {
+		min-height: 355px;
+	}
+
+	.insights {
+		margin-top: 20px;
+	}
+
+	.piclabel h2 {
+	margin-top: -200px;
+	}
+
+	.s3card {
+		margin-top: 100px;
+	}
+
+	form {
+		margin-top: 30px;
+	}
+
+	.pr1-parent {
+		width: 210px;
+		height: 135px;
+	}
+
+
+}
