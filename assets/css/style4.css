@@ -39,7 +39,6 @@ body {
 
 
 /*--------------------content----------------*/
-
 .divider-top {
 	height: 200px;
 	position: relative;
@@ -50,86 +49,30 @@ body {
 	position: absolute;
 }
 
-.bg-about {
-	background-color: black;
-	height: 250px;
+.pointer {
+	cursor: pointer;
 }
 
-.bg-about h2 {
-	padding-top: 5%;
+h4 {
+	color: ;
 }
 
-.mission {
-	background-image: url("../images/bg-m.jpg");
-	background-repeat: no-repeat;
-	background-position: bottom right;
+.body-section {
+	color: #6C7985;
 }
 
-.vision {
-	background-image: url("../images/bg-v.jpg");
-	background-repeat: no-repeat;
-	background-position: bottom left;
-	background-color: white;
-}
 
-.vision p {
-	color: #29221A;
-}
 
-.bg-about .container {
+.services-picture img {
 	height: 100%;
-
+	width: 100%;
+	background-position: center;
+	margin-bottom: 50px;
 }
 
-.divider {
-	height: 0.5rem;
+hr {
+	margin-top: 50px;
 }
-
-.history {
-	height: 100px;
-	background-color: #E2AB00;
-}
-
-.history .col-md-8 {
-	padding-top: 3%;
-}
-
-.history .col-md-4 {
-	padding-top: 2.4%
-}
-
-.history  
-
-.t {
-	border: 1px solid white;
-}
-
-.team .card {
-	border: 0;
-	box-shadow: 10px, 10px, 10px black;
-}
-
-.team img {
-	border-radius: 50%;
-}
-
-
-.team a {
-	text-decoration: none;
-	color: #737C84;
-}
-
-.team .card:hover {
-	border: 1px solid #e0dedc;
-}
-
-.team-title {
-	height: 100px;
-	margin-top: 30px;
-}
-
-
-
 /*----------------end of content-------------*/
 
 
@@ -210,7 +153,13 @@ footer {
 	height: 2rem;
 }
 
+.form-control::placeholder {
+	opacity: 0.5;
+}
 
+form {
+	margin-bottom: 	50px;
+}
 /*end of footer*/
 
 
@@ -288,7 +237,9 @@ footer {
 		padding: 0 auto;
 	}
 
-
+	.git {
+		margin-top: 50px;
+	}
 
 
 }
